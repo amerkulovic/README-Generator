@@ -1,1 +1,0 @@
-{"project name":"MyMovieSpace","description":"A site to find the movies you love!","installation":"Through github organization","usage":"For in class assignment","contributes":"Add trailers to movie pages","tests":"N/A"}
