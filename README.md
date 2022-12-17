@@ -1,6 +1,6 @@
 # MyMovieSpace
 ## Description
-   A place to find and discover your favorite movies
+  A place to find and discover your favorite movies
 ## Table of Contents
 <a href="#installation">Installation</a>
 
@@ -18,12 +18,14 @@
 ## <div id="installation">Installation</div>
   We deployed it through GitHub
 ## <div id="usage">Usage</div>
-   To help people find movies!
+  To help people find movies!
 ## <div id="license">License</div>
- A trailer for the single movie page
+ N/A
 ## <div id="contribtion">Contribution</div>
-  A whole lot
+   A whole lot
 ## <div id="test">Test</div>
-   No, the project is perfect
+  Tested the performance of the website
 ## <div id="question">Question</div>
-  no
+If you wish to contact me, feel free to find me here:
+  amer.kulovic@yahoo.com
+  akulovic

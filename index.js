@@ -42,8 +42,13 @@ const questions = [
   },
   {
     type: "input",
-    message: "If you have any questions please feel free to ask?",
-    name: "questions",
+    message: "Please enter your github account name.",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "Please enter your email address.",
+    name: "email",
   },
 ];
 
@@ -74,7 +79,9 @@ function writeToFile(fileName, data) {
 ## <div id="test">Test</div>
   ${data.test}
 ## <div id="question">Question</div>
-  ${data.questions}`;
+If you wish to contact me, feel free to find me here:
+  ${data.email}
+  ${data.github}`;
 
   return fs.writeFileSync(fileName, template);
 }
