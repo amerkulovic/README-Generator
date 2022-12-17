@@ -79,9 +79,9 @@ function writeToFile(fileName, data) {
 ## <div id="test">Test</div>
   ${data.test}
 ## <div id="question">Question</div>
-If you wish to contact me, feel free to find me here:
+If you wish to contact me, feel free to find me here:\n
   Email: ${data.email}\n
-  GitHub Account Name: <a href=" https://${data.githubç}.github.io/challenge-1/">${data.github}</a>`;
+  GitHub Account Name: <a href="https://github.com/${data.github}">${data.github}</a>`;
 
   return fs.writeFileSync(fileName, template);
 }
