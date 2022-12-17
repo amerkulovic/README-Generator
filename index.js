@@ -56,18 +56,24 @@ function writeToFile(fileName, data) {
 ## Description
   ${data.description}
 ## Table of Contents
-<a href="#Installation">Installation</a>
-## <div id="Installation">Installation</div>
+<a href="#installation">Installation</a>
+<a href="#usage">Usage</a>
+<a href="#license">License</a>
+<a href="#contribution">Contribution</a>
+<a href="#test">Test</a>
+<a href="#questions">Questions</a>
+
+## <div id="installation">Installation</div>
   ${data.installation}
-## Usage
+## <div id="usage">Usage</div>
   ${data.usage}
-## License
+## <div id="license">License</div>
  ${data.license}
-## Contributions
+## <div id="contribtion">Contribution</div>
   ${data.contribution}
-## Tests
+## <div id="test">Test</div>
   ${data.test}
-## Questions
+## <div id="question">Question</div>
   ${data.questions}`;
 
   return fs.writeFileSync(fileName, template);
