@@ -56,7 +56,8 @@ function writeToFile(fileName, data) {
 ## Description
   ${data.description}
 ## Table of Contents
-## Installation
+<a href="#Installation">Installation</a>
+## <div id="Installation">Installation</div>
   ${data.installation}
 ## Usage
   ${data.usage}
