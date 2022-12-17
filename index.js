@@ -6,21 +6,28 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
   {
     type: "input",
-    message: "What is the tile of your project?",
+    message: "What is the title of your project?",
     name: "title",
+  },
+  {
+    type: "input",
+    message: "What is the description of your project?",
+    name: "description",
   },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   const exportData = generateMarkdown(data);
-  return fs.writeFileSync(fileName, exportData);
+  const template = `${exportData}
+# Description
+  ${data.description}`
+  return fs.writeFileSync(fileName, template);
 }
 
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((response) => {
-    console.log(response);
     writeToFile("README.md", response);
   });
 }
