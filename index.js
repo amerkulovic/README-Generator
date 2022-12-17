@@ -56,12 +56,12 @@ function writeToFile(fileName, data) {
 ## Description
   ${data.description}
 ## Table of Contents
-<a href="#installation">Installation</a>
-<a href="#usage">Usage</a>
-<a href="#license">License</a>
-<a href="#contribution">Contribution</a>
-<a href="#test">Test</a>
-<a href="#questions">Questions</a>
+<a href="#installation">Installation</a>\n
+<a href="#usage">Usage</a>\n
+<a href="#license">License</a>\n
+<a href="#contribution">Contribution</a>\n
+<a href="#test">Test</a>\n
+<a href="#question">Questions</a>\n
 
 ## <div id="installation">Installation</div>
   ${data.installation}
