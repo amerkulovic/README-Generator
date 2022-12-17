@@ -1,6 +1,6 @@
 # MyMovieSpace
 ## Description
-  A place to find and discover your favorite movies
+   A place to find and discover your favorite movies
 ## Table of Contents
 <a href="#installation">Installation</a>
 
@@ -22,10 +22,11 @@
 ## <div id="license">License</div>
  N/A
 ## <div id="contribtion">Contribution</div>
-   A whole lot
+  A whole lot
 ## <div id="test">Test</div>
   Tested the performance of the website
 ## <div id="question">Question</div>
 If you wish to contact me, feel free to find me here:
-  amer.kulovic@yahoo.com
-  akulovic
+  Email: amer.kulovic@yahoo.com
+
+  GitHub Account Name: <a href=" https://undefined.github.io/challenge-1/">amerkulovic</a>

@@ -80,8 +80,8 @@ function writeToFile(fileName, data) {
   ${data.test}
 ## <div id="question">Question</div>
 If you wish to contact me, feel free to find me here:
-  ${data.email}
-  ${data.github}`;
+  Email: ${data.email}\n
+  GitHub Account Name: <a href=" https://${data.githubç}.github.io/challenge-1/">${data.github}</a>`;
 
   return fs.writeFileSync(fileName, template);
 }
