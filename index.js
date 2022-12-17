@@ -53,8 +53,6 @@ const questions = [
   },
 ];
 
-// Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   const exportData = generateMarkdown(data);
@@ -63,12 +61,7 @@ function writeToFile(fileName, data) {
 ## Description
   ${data.description}
 ## Table of Contents
-<a href="#installation">Installation</a>\n
-<a href="#usage">Usage</a>\n
-<a href="#license">License</a>\n
-<a href="#contribution">Contribution</a>\n
-<a href="#test">Test</a>\n
-<a href="#question">Questions</a>\n
+<a href="#installation">Installation</a>\n<a href="#usage">Usage</a>\n<a href="#license">License</a>\n<a href="#contribution">Contribution</a>\n<a href="#test">Test</a>\n<a href="#question">Questions</a>\n
 
 ## <div id="installation">Installation</div>
   ${data.installation}
@@ -83,7 +76,7 @@ function writeToFile(fileName, data) {
 ## <div id="question">Question</div>
 If you wish to contact me, feel free to find me here:\n
   Email: ${data.email}\n
-  GitHub Account Name: <a href="https://github.com/${data.github}">${data.github}</a>`;
+  GitHub Account: <a href="https://github.com/${data.github}">${data.github}</a>`;
 
   return fs.writeFileSync(fileName, template);
 }
