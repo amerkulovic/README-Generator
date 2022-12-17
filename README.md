@@ -1,29 +1,34 @@
-# N/A
-  C
+# MyMovieSpace
+  A
 ## Description
-  N/A
+  To find movies on the web
 ## Table of Contents
 <a href="#installation">Installation</a>
+
 <a href="#usage">Usage</a>
+
 <a href="#license">License</a>
+
 <a href="#contribution">Contribution</a>
+
 <a href="#test">Test</a>
+
 <a href="#question">Questions</a>
 
 
 ## <div id="installation">Installation</div>
-  N/A
+  Deployed through GitHub
 ## <div id="usage">Usage</div>
-  N/A
+  As a movie search for people browsing the web
 ## <div id="license">License</div>
- This application is covered under C
+ This application is covered under A
 ## <div id="contribtion">Contribution</div>
-  N/A
+  Add trailers to the movies page
 ## <div id="test">Test</div>
-  N/A
+  A lot
 ## <div id="question">Question</div>
 If you wish to contact me, feel free to find me here:
 
-  Email: N/A
+  Email: amer.kulovic@yahoo.com
 
-  GitHub Account: <a href="https://github.com/N/A">N/A</a>
+  GitHub Account: <a href="https://github.com/amerkulovic">amerkulovic</a>
