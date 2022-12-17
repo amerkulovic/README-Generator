@@ -1,6 +1,6 @@
 # MyMovieSpace
 ## Description
-  A place to find and discover your favorite movies
+  n/a
 ## Table of Contents
 <a href="#installation">Installation</a>
 
@@ -16,15 +16,15 @@
 
 
 ## <div id="installation">Installation</div>
-  We deployed it through GitHub
+  n/a
 ## <div id="usage">Usage</div>
-   To help people find movies!
+  n/a
 ## <div id="license">License</div>
- N/A
+ This application is covered under C
 ## <div id="contribtion">Contribution</div>
-   A whole lot
+  n/a
 ## <div id="test">Test</div>
-  Tested the performance of the website
+  n/a
 ## <div id="question">Question</div>
 If you wish to contact me, feel free to find me here:
 

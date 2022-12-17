@@ -26,8 +26,9 @@ const questions = [
     name: "usage",
   },
   {
-    type: "input",
+    type: "list",
     message: "What is the license you used?",
+    choices: ["A", "B", "C"],
     name: "license",
   },
   {
@@ -58,6 +59,7 @@ const questions = [
 function writeToFile(fileName, data) {
   const exportData = generateMarkdown(data);
   const template = `${exportData}
+  ${data.license}
 ## Description
   ${data.description}
 ## Table of Contents
@@ -73,7 +75,7 @@ function writeToFile(fileName, data) {
 ## <div id="usage">Usage</div>
   ${data.usage}
 ## <div id="license">License</div>
- ${data.license}
+ This application is covered under ${data.license}
 ## <div id="contribtion">Contribution</div>
   ${data.contribution}
 ## <div id="test">Test</div>
