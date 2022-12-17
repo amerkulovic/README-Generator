@@ -20,7 +20,7 @@ const questions = [
 function writeToFile(fileName, data) {
   const exportData = generateMarkdown(data);
   const template = `${exportData}
-# Description
+## Description
   ${data.description}`
   return fs.writeFileSync(fileName, template);
 }
