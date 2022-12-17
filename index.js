@@ -28,7 +28,7 @@ const questions = [
   {
     type: "list",
     message: "What is the license you used?",
-    choices: ["A", "B", "C"],
+    choices: ["Apache2.0", "Boost", "BSD"],
     name: "license",
   },
   {
@@ -55,9 +55,9 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  const exportData = generateMarkdown(data);
-  const template = `${exportData}
-  ${data.license}
+  const licenseData = generateMarkdown(data);
+  const template = `# ${data.title}
+  ${licenseData}
 ## Description
   ${data.description}
 ## Table of Contents
@@ -73,7 +73,7 @@ function writeToFile(fileName, data) {
 ## <div id="usage">Usage</div>
   ${data.usage}
 ## <div id="license">License</div>
- This application is covered under ${data.license}
+ This application is covered under ${licenseData}
 ## <div id="contribtion">Contribution</div>
   ${data.contribution}
 ## <div id="test">Test</div>

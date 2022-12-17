@@ -1,5 +1,5 @@
 # MyMovieSpace
-  A
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Description
   To find movies on the web
 ## Table of Contents
@@ -21,11 +21,11 @@
 ## <div id="usage">Usage</div>
   As a movie search for people browsing the web
 ## <div id="license">License</div>
- This application is covered under A
+ This application is covered under [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## <div id="contribtion">Contribution</div>
   Add trailers to the movies page
 ## <div id="test">Test</div>
-  A lot
+   A lot
 ## <div id="question">Question</div>
 If you wish to contact me, feel free to find me here:
 
