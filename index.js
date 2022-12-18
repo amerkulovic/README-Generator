@@ -1,9 +1,7 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
-// TODO: Create an array of questions for user input
-// Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
 const questions = [
   {
     type: "input",
@@ -53,7 +51,6 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   const licenseData = generateMarkdown(data);
   const template = `# ${data.title}
@@ -74,7 +71,7 @@ function writeToFile(fileName, data) {
   ${data.usage}
 ## <div id="license">License</div>
  This application is covered under ${licenseData}
-## <div id="contribtion">Contribution</div>
+## <div id="contribution">Contribution</div>
   ${data.contribution}
 ## <div id="test">Test</div>
   ${data.test}
@@ -86,12 +83,10 @@ If you wish to contact me, feel free to find me here:\n
   return fs.writeFileSync(fileName, template);
 }
 
-// TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((response) => {
     writeToFile("README.md", response);
   });
 }
 
-// Function call to initialize app
 init();
