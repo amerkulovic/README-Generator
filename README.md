@@ -22,7 +22,7 @@
   It is used to create clear and clean README's for people to use, see other peoples work, and to share their contact info
 ## <div id="license">License</div>
  This application is covered under [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-## <div id="contribtion">Contribution</div>
+## <div id="contribution">Contribution</div>
   I would like to add more headers and add more detail unto the README file
 ## <div id="test">Test</div>
   I tested to make sure the license's work and that the code has no bugs in it
