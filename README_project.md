@@ -18,3 +18,5 @@ In this generator, you will be able to create a concise and aesthetic README fil
 ## Video
 
 ![Watch the video](/Final%20README%20Recoroding.mov "README Video")
+
+Please download for a instructional video on how the application works!
