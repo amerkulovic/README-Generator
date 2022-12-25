@@ -1,7 +1,7 @@
 # README Generator
   [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ## Description
-  It can create README files through node.js
+  A project that can create quality README's
 ## Table of Contents
 <a href="#installation">Installation</a>
 
@@ -17,15 +17,15 @@
 
 
 ## <div id="installation">Installation</div>
-  I deployed it through GitHub and used Node.js and JavaScript to write the code
+  Worked through GitHub and VSCode
 ## <div id="usage">Usage</div>
-  It is used to create clear and clean README's for people to use, see other peoples work, and to share their contact info
+  To create README's
 ## <div id="license">License</div>
  This application is covered under [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ## <div id="contribution">Contribution</div>
-  I would like to add more headers and add more detail unto the README file
+  None
 ## <div id="test">Test</div>
-  I tested to make sure the license's work and that the code has no bugs in it
+  Tested how the data is dipslayed and worked with displaying the license
 ## <div id="question">Question</div>
 If you wish to contact me, feel free to find me here:
 

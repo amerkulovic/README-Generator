@@ -14,3 +14,7 @@ In this generator, you will be able to create a concise and aesthetic README fil
 ## Screenshot
 
 ![Alt text](/Screen%20Shot%202022-12-17%20at%2011.16.17%20PM.png "README Generator")
+
+## Video
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](/Final%20README%20Recoroding.mov)
