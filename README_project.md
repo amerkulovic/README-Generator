@@ -17,4 +17,4 @@ In this generator, you will be able to create a concise and aesthetic README fil
 
 ## Video
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](/Final%20README%20Recoroding.mov)
+![Watch the video](/Final%20README%20Recoroding.mov "README Video")
